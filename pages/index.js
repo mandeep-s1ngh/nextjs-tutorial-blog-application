@@ -4,6 +4,7 @@ import Layout, { siteTitle } from "../components/layout";
 import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
+import { format } from "date-fns";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -42,6 +43,13 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <Link href={`/posts/lorem-one`}>
+          Occaecat nisi exercitation mollit commodo.
+        </Link>
+        <br />
+        <Link href={`/posts/lorem-two`}>
+          Est in eu eiusmod cillum velit ullamco mollit commodo.
+        </Link>
       </section>
     </Layout>
   );
