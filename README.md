@@ -2,9 +2,11 @@
 
 ## <ins>Summary</ins>
 
-This is a application built using Next.js and Javascript as part of the official Next.js tutorial.
+This is a application built using Next.js and TypeScript as part of the official Next.js [tutorial](https://nextjs.org/learn-pages-router/basics/create-nextjs-app).
 
 The purpose of this project was to dive into Next.js for the first time and gain an understanding of the fundamentals including how to host it on Vercel.
+
+It was initially built with JavaScript before I converted it to TypeScript as part of the next steps section.
 
 ---
 
@@ -24,8 +26,8 @@ Can be found here - https://nextjs-tutorial-blog-application.vercel.app/
 ## <ins>Tech Stack</ins>
 
 - CSS
-- JavaScript
 - Next.js
+- TypeScript
 
 ---
 
